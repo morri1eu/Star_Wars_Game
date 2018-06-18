@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <h1>Star Wars RPG</h1>
+    <h3>Choose Your Character!</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heroes" id="heroes1">
+                    <img class="img-fluid" src="assets/images/Rey.jpg" alt="Rey">
+                    <p id="HPR"></p>
+                </div>
+                <div class="heroes" id="heroes2">
+                    <img class="img-fluid" src="assets/images/Finn.jpg" alt="Finn">
+                    <p id="HPF"></p>
+                </div>
+                <div class="heroes" id="heroes3">
+                    <img class="img-fluid" src="assets/images/Kylo.jpg" alt="Kylo">
+                    <p id="HPK"></p>
+                </div>
+                <div class="heroes" id="heroes4">
+                    <img class="img-fluid" src="assets/images/tie.jpeg" alt="Tie">
+                    <p id="HPT"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div style="clear: both;">
+                <h5>Enemies Available to Attack</h5>
+                <span class="enemies"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div style="clear: both;">
+                <h5>Your Character</h5>
+                <span class="YourCharacter"></span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="remove" style="clear: both;">
+                <h5>Defender</h5>
+                <span class="Defender"></span>
+            </div>
+        </div>
+        <div class="row">
+            <button style="clear: both;">Attack!</button>
+        </div>
+        <div class="dead" style="display: none">
+
+        </div>
+    </div>
+</body>
+
+</html>

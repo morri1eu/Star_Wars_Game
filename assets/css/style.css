@@ -1,0 +1,19 @@
+
+.heroes{
+    position: relative;
+    float: left;
+    max-width: 25%;
+    margin: auto
+}
+body{
+    background-image: url("../images/star-wars-wallpaper-4.jpg");
+    color: antiquewhite;
+}
+
+.heroes p {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    right: 50%;
+    background-color: red;
+} 
