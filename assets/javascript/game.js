@@ -105,6 +105,9 @@ var audio = new Audio("https://ia801304.us.archive.org/10/items/StarWarsJohnWill
             $(".Attack").text("You've saved the Galaxy! Refresh to play again");
             audio.play();
         }
+        if (hero.HP <= 0){
+            $(".Attack").text("You lose! Refresh to play again");
+        }
 
 
 
